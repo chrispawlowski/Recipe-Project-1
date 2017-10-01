@@ -1,0 +1,12 @@
+body {background-color: floralwhite}
+
+* {
+    font-family: Blender Pro;
+    color: darkslategrey;
+    font-size:80%;
+}
+
+figure {
+    border: 1px solid gray;
+    padding: 10px;
+}
