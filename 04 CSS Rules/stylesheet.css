@@ -1,38 +1,51 @@
 h1 {
     margin: 10px auto 10px auto ;
-    text-align: center ;
+    text-align: left ;
+    font-family: "Brush Script Std" ;
+    font-size: 500% ;
 }
 
 body {
-    background-color: #F5F5F5 ;
-    color: #333333 ;
+    background-color: #333333 ;
+    color: white ;
     min-width: 720px ;
-    max-width: 1300px ;
-    font-family: "Neutra Text" ;
-    font-size: 80% ;
+    max-width: 950px ;
+    font-family: "DIN" ;
+    font-size: 70% ;
 }
 
 p {
-    margin: 10px auto 10px auto;
+    margin: 10px 10px 10px 10px;
     padding: 10px ;
-    border:2px inset ;
+    border:5px solid ;
     border-color: #87CEFF ;
+    text-align: center ;
+    display: inline-block ;
+    border-image:url(../04%20CSS%20Rules/borderimage.svg) 40 40 40 40 round;
 }
 
 ul {
     line-height: 25px ;
+    list-style-type: circle;
+
 }
 
 ol {
     line-height: 15px ;
+    list-style-type: decimal-leading-zero ;
 }
 
 a {
     margin: 10px auto 10 px auto;
 }
 
+h3 {
+    text-align: center ;
+    color: 
+}
+
  a:link {
-                color: #4472A7 ;
+                color: #ffee89 ;
                     font-size: 20 px ;
                     text-decoration: none ;
             }
@@ -43,9 +56,9 @@ a {
             }
             
             a:hover {
-                font-weight: bold ;
+                text-decoration: underline
             }
             
             a:active {
-                color: #0099CC
+                color: #ffe12b
             }
