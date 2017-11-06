@@ -136,8 +136,13 @@ abbr {
 .preamble2 {
     grid-column: 5 / 6 ;
     grid-row: 2 / 4 ;
-    text-align: left ;
-    
+    text-align: left ;   
+}
+
+.table {
+    grid-row: 3 / 5 ;
+    grid-column: 1 / 7 ;
+    z-index: 0 ;
 }
 
 .supporting {	
