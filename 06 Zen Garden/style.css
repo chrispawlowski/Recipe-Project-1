@@ -61,7 +61,7 @@ abbr {
     display: grid ;
     margin: 0; 
     position: relative;
-    grid-template-rows: repeat(14, 200px);
+    grid-template-rows: repeat(11, 200px);
     grid-template-columns: repeat(6, 1fr);
     height:auto;
     grid-gap: 10px ;
@@ -158,6 +158,24 @@ abbr {
     z-index: 0 ;
 }
 
+.rotate {
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
 .rotate1 {
     /* Safari */
     -webkit-transform: rotate(-90deg);
@@ -246,99 +264,21 @@ abbr {
     margin: 0em 2em ;
 }
 
-.design-1-img {
-    grid-row: 11 / 12 ; 
-    grid-column: 2 / 3 ;
-    z-index: 0 ;
-}
+.grid2 {
+    display: grid ;
+    margin: -12em 14em 0em 14em ;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px ;
+    justify-items: center ;
+    text-align: center ;
+    z-index: 10 ;
+} 
 
-.design-2-img {
-    grid-row: 11 / 12 ; 
-    grid-column: 3 / 4 ;
-    z-index: 0 ;
-}
-
-.design-3-img {
-    grid-row: 11 / 12 ; 
-    grid-column: 4 / 5 ;
-    z-index: 0 ;
-}
-
-.design-4-img {
-    grid-row: 11 / 12 ; 
-    grid-column: 5 / 6 ;
-    z-index: 0 ;
-}
-
-.design-5-img {
-    grid-row: 12 / 13 ; 
-    grid-column: 2 / 3 ;
-    z-index: 0 ;
-}
-
-.design-6-img {
-    grid-row: 12 / 13 ; 
-    grid-column: 3 / 4 ;
-    z-index: 0 ;
-}
-
-.design-7-img {
-    grid-row: 12 / 13 ; 
-    grid-column: 4 / 5 ;
-    z-index: 0 ;
-}
-
-.design-8-img {
-    grid-row: 12 / 13 ; 
-    grid-column: 5 / 6 ;
-    z-index: 0 ;
-}
-
-.other-designs {
-    z-index: 5 ;
-    justify-content: center ;
-    grid-row: 11 / 13 ;
-    grid-column: 2 / 6 ;
-}
-
-.design-name-1 {
-    grid-row: 11 / 12 ; 
-    grid-column: 2 / 3 ;
-}
-
-.design-name-2 {
-    grid-row: 11 / 12 ; 
-    grid-column: 3 / 4 ;
-}
-
-.design-name-3 {
-    grid-row: 11 / 12 ; 
-    grid-column: 4 / 5 ;
-}
-
-.design-name-4 {
-    grid-row: 11 / 12 ; 
-    grid-column: 5 / 6 ;
-}
-
-.design-name-5 {
-    grid-row: 12 / 13 ; 
-    grid-column: 2 / 3 ;
-}
-
-.design-name-6 {
-    grid-row: 12 / 13 ; 
-    grid-column: 3 / 4 ;
-}
-
-.design-name-7 {
-    grid-row: 12 / 13 ; 
-    grid-column: 4 / 5 ;
-}
-
-.design-name-8 {
-    grid-row: 12 / 13 ; 
-    grid-column: 5 / 6 ;
+.design-img {
+    margin-top: -4em ;
+    text-align: center ;
+    align-self: center ;
 }
 
 .design-archives {
@@ -348,5 +288,5 @@ abbr {
 
 .zen-resources {
     grid-row: 13 / 14 ;
-    grid-column: 5 / 6 ;
+    grid-column: 2 / 3 ;
 }
