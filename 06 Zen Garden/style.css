@@ -16,6 +16,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 body { 
     font: 90% Raleway, sans-serif;
     line-height: 1.88889;
@@ -35,6 +36,10 @@ h3 {
     letter-spacing: 1px; 
     margin-bottom: 1em; 
     color: #fff ;
+}
+
+li {
+    list-style: none ;
 }
 
 a:link { 
@@ -264,29 +269,51 @@ abbr {
     margin: 0em 2em ;
 }
 
+.select {
+    grid-row: 11 / 12 ;
+    grid-column: 2 / 3;
+line-height: 0px ;
+}
+
 .grid2 {
     display: grid ;
-    margin: -12em 14em 0em 14em ;
+    margin: -12em 15em 0em 15em ;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px ;
-    justify-items: center ;
     text-align: center ;
+    align-self: center ;
+    align-content: center ;
     z-index: 10 ;
 } 
 
 .design-img {
-    margin-top: -4em ;
-    text-align: center ;
     align-self: center ;
+    display:block ;
+    grid-auto-flow: row ;
+}
+
+.design-img p {
+    margin-top: -3em ;
+    text-align: center ;
+}
+
+.archives {
+    margin: 0 0 0 -8em ;
+}
+
+.resources {
+    margin: 0 0 0 -8em ;
 }
 
 .design-archives {
-    grid-row: 13 / 14;
-    grid-column: 2 / 3 ;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2 ;
+    text-align: left ;    
 }
 
 .zen-resources {
-    grid-row: 13 / 14 ;
-    grid-column: 2 / 3 ;
+    grid-row: 3 / 4 ;
+    grid-column: 3 / 4 ;
+    text-align: left ;
 }
